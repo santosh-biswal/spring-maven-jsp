@@ -11,7 +11,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.learning.springboot</groupId>
-	<artifactId>spring-maven-demo</artifactId>
+	<artifactId>spring-maven-jsp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-maven-jsp</name>
 	<description>Demo project for Spring Boot</description>
