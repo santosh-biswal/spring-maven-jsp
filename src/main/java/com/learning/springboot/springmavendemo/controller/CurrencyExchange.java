@@ -14,4 +14,11 @@ public class CurrencyExchange{
 	}
 	
 	
+	@RequestMapping("/success.htm")
+	public String getsuccess() {
+		
+		return "success";
+	}
+	
+	
 }

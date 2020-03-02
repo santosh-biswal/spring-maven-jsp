@@ -32,7 +32,7 @@ public class ExchnageCurrencyViewController {
 		
 		ExchangeValue ev=repo.findByFromAndTo(from, to);
 		
-		ev.setPort(Integer.parseInt(env.getProperty("local.server.port")));
+		ev.setPort(Integer.parseInt(env.getProperty("server.port")));
 		
 		
 		System.out.println(ev);
